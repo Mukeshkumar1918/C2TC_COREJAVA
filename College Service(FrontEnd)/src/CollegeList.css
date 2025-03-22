@@ -1,0 +1,52 @@
+body{
+    background: url('https://www.bing.com/images/search?view=detailV2&ccid=J6MBQeXb&id=1CCBC2D4907A4E6D7D223787093697D3429B09F2&thid=OIP.J6MBQeXbx414j-MUPzZCYgHaEo&mediaurl=https%3a%2f%2fwallpapercave.com%2fwp%2fwp4531533.jpg&exph=1200&expw=1920&q=background+image+for+mixed+colour&simid=608006330184368951&FORM=IRPRST&ck=9A282DE1406EE70412B09E68966B865C&selectedIndex=3&itb=0')no-repeat;
+}
+.college-list-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .college-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .college-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .college-item strong {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .college-item p {
+    font-size: 14px;
+    color: #555;
+  }
+  .delete-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  
